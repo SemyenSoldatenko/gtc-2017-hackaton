@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>API Info</title>
+</head>
+<body ng-app="HackApi" ng-controller="ItemCtrl">
+
+<h1 ng-bind="item.title"></h1>
+<p ng-bind="item.price"></p>
+<img ng-src="products/{{item.image}}"/>
+
+
+<script type="application/javascript" src="lib/angular.min.js"></script>
+<script type="application/javascript" src="lib/lodash.js"></script>
+<script type="application/javascript" src="api.js"></script>
+
+</body>
+</html>

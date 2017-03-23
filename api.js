@@ -1,6 +1,6 @@
 angular.module('HackApi', [])
-    .controller('MainCtrl', MainCtrl);
-
+    .controller('MainCtrl', MainCtrl)
+    .controller('ItemCtrl', ItemCtrl);
 
 function MainCtrl($scope, $http) {
 
@@ -22,5 +22,22 @@ function MainCtrl($scope, $http) {
             $scope.products = response.data.products;
             $scope.lastResponse = response;
             lastResponse = response;
+        }, console.error);
+}
+
+function ItemCtrl($scope, $http, $location) {
+
+    $scope.productIndex = parseInt($location.url().substring(1));
+
+
+    $http.get('products/products.json')
+        .then(function(response) {
+            $scope.products = response.data.products;
+            $scope.lastResponse = response;
+            lastResponse = response;
+
+            $scope.item = $scope.products[$scope.productIndex];
+
+
         }, console.error);
 }
