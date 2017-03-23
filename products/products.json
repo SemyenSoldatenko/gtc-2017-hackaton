@@ -3,52 +3,92 @@
 	{
 	  "title": "Cool max 100",
 	  "price": 37.50,
-	  "image": "coolmax100.jpg"
+      "image": "coolmax100.jpg",
+      "categories": [
+        "cloth",
+        "t-shirt"
+      ]
 	},
 	{
 	  "title": "Car Refrigerator bag",
 	  "price": 53.99,
-	  "image": "car-refrigerator-bag.jpg"
+      "image": "car-refrigerator-bag.jpg",
+      "categories": [
+        "car",
+        "fridge",
+        "bag"
+      ]
 	},
 	{
 	  "title": "Paint Tool Box",
 	  "price": 22.10,
-	  "image": "paint-tool-box.jpg"
+      "image": "paint-tool-box.jpg",
+      "categories": [
+        "toolbox",
+        "paint",
+        "color"
+      ]
 	},
 	{
 	  "title": "Color paper",
 	  "price": 3.22,
-	  "image": "color-aid.jpg"
+      "image": "color-aid.jpg",
+      "categories": [
+        "color",
+        "tool"
+      ]
 	},
 	{
 	  "title": "Canon Selphy CP1200 Color Photo Printer",
 	  "price": 99.50,
-	  "image": "canon-printer.jpg"
+      "image": "canon-printer.jpg",
+      "categories": [
+        ""
+      ]
 	},
 	{
 	  "title": "Modern Desks",
 	  "price": 80.50,
-	  "image": "desk.jpg"
+      "image": "desk.jpg",
+      "categories": [
+        "desk",
+        "cabinet"
+      ]
 	},
 	{
 	  "title": "Happy Backpack",
 	  "price": 11.20,
-	  "image": "backpack.jpg"
+      "image": "backpack.jpg",
+      "categories": [
+        "backpack",
+        "happy"
+      ]
 	},
 	{
 	  "title": "Black desk",
 	  "price": 115.00,
-	  "image": "desk2.jpg"
+      "image": "desk2.jpg",
+      "categories": [
+        "desk"
+      ]
 	},
 	{
 	  "title": "Squash rocket",
 	  "price": 22.30,
-	  "image": "sqush-rocket.jpg"
+      "image": "sqush-rocket.jpg",
+      "categories": [
+        "sport",
+        "squash",
+        "rocket"
+      ]
 	},
 	{
 	  "title": "Beats By Dre Limited Edition Studio Orange Headphones",
 	  "price": 43.20,
-	  "image": "headphones.jpg"
+      "image": "headphones.jpg",
+      "categories": [
+        ""
+      ]
 	}
   ]
 }

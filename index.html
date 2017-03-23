@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>API Info</title>
+</head>
+<body ng-app="HackApi" ng-controller="MainCtrl">
+
+<table>
+    <tr>
+        <th>Category</th>
+        <th>Items</th>
+    </tr>
+    <tr ng-repeat="cat in getCategories()">
+        <td>{{cat}}</td>
+        <td>{{getProductsInCategory(cat).length}}</td>
+    </tr>
+    <tr>
+        <th>Total</th>
+        <th>{{products.length}}</th>
+    </tr>
+</table>
+
+
+<script type="application/javascript" src="lib/angular.min.js"></script>
+<script type="application/javascript" src="lib/lodash.js"></script>
+<script type="application/javascript" src="api.js"></script>
+
+</body>
+</html>
